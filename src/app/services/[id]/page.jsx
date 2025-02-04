@@ -25,7 +25,7 @@ const ServiceDetailPage = ({params}) => {
         },
       ];
 
-      const id = params.id;
+      const id = params?.id;
       const singleData = data.find(d => d._id === id);
     return (
         <div>
